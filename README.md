@@ -218,7 +218,7 @@ Executive Summary KPIs
 Revenue is increasing, but rising refund percentages are negatively impacting net profit.
 
 Product & Refund Analysis
-![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%202.png)
 * Key Insight
 Some products generate high revenue but also have high refund rates, indicating potential quality or expectation issues.
 
