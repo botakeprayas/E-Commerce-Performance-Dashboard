@@ -227,24 +227,10 @@ Funnel & Website Performance
 * Key Insight
 Paid channels drive high traffic volume, but organic traffic shows better conversion efficiency.
 
-
 Customer & Traffic Quality Insights
-![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%204.png)
 * Key Insight
 Fewer but higher-quality sessions generate more revenue, emphasizing the importance of traffic quality over volume.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Business Insights
 
