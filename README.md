@@ -210,6 +210,74 @@ LEFT JOIN orders
 ON website_sessions.website_session_id = orders.website_session_id GROUP BY utm_source;
 ```
 
+## Power BI Dashboard Structure
+
+Executive Summary KPIs
+
+
+
+
+* Key Insight
+Revenue is increasing, but rising refund percentages are negatively impacting net profit.
+
+Product & Refund Analysis
+
+
+
+* Key Insight
+Some products generate high revenue but also have high refund rates, indicating potential quality or expectation issues.
+
+
+Funnel & Website Performance
+
+* Key Insight
+Paid channels drive high traffic volume, but organic traffic shows better conversion efficiency.
+
+
+Customer & Traffic Quality Insights
+
+* Key Insight
+Fewer but higher-quality sessions generate more revenue, emphasizing the importance of traffic quality over volume.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Business Insights
+
+* Refunds significantly reduce net revenue despite strong gross sales
+
+* A small number of products contribute disproportionately to refunds
+
+* Conversion rates around 5–6% indicate strong e-commerce performance
+
+* Organic and direct traffic channels deliver higher revenue per session
+
+* Funnel analysis highlights optimization opportunities before checkout
+
+## Recommendations
+
+* Improve product quality and descriptions for high-refund items
+
+* Optimize checkout and landing pages to reduce funnel drop-offs
+
+* Invest more in high-converting traffic sources
+
+* Monitor refund trends as a key profitability metric
+
+## Conclusion
+
+This project showcases a complete analytics pipeline from raw data to executive-ready dashboards. By combining SQL analytics with Power BI visualization, it demonstrates how data-driven insights can directly support business growth, profitability, and marketing strategy.
+
 
 
 
