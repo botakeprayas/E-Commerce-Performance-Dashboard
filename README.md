@@ -68,7 +68,51 @@ What is total revenue, total orders, and AOV?
 CREATE VIEW  KPIs AS
 SELECT ROUND(SUM(price_usd),2) as Total_Revenue ,COUNT(DISTINCT order_id) as `Total orders`,
 ROUND((SUM(price_usd)/COUNT(DISTINCT order_id)),2) `Average order value` FROM order_items; 
-
+```
+Monthly revenue & order trend.
+```sql
+CREATE VIEW MONTHLY_REVENUE AS
+SELECT 
+    YEAR(created_at) AS Years,
+    MONTH(created_at) AS `Month Number`,
+    MONTHNAME(created_at) AS Months,
+    ROUND(SUM(items_purchased * price_usd),2) AS `Total Revenue`,
+    COUNT(DISTINCT order_id) AS `Total Orders`
+FROM orders
+GROUP BY Years, `Month Number`, Months
+ORDER BY  `Month Number`
+```
+Which products generate highest revenue?
+```sql
+CREATE VIEW PRODUCT_REVENUE AS
+    SELECT 
+        product_name,
+        ROUND(SUM(items_purchased * price_usd), 2) AS Total_Revenue
+    FROM
+        orders
+            JOIN
+        products ON products.product_id = orders.primary_product_id
+    GROUP BY product_name
+    ORDER BY Total_Revenue DESC;
+```
+Which products have highest refund rate?
+```sql
+CREATE VIEW PRODUCT_REFUND_RATE AS
+    SELECT 
+        product_name,
+        COUNT(order_items.order_item_id) AS `Total Sold`,
+        COUNT(order_item_refunds.order_item_id) AS `Total Refund`,
+        ROUND(COUNT(order_item_refunds.order_item_id) * 100.0 / COUNT(order_items.order_item_id),
+                2) AS `Refund Rate`
+    FROM
+        order_items
+            LEFT JOIN
+        order_item_refunds ON order_items.order_item_id = order_item_refunds.order_item_id
+            JOIN
+        products ON order_items.product_id = products.product_id
+    GROUP BY product_name
+    ORDER BY `Refund Rate` DESC;
+```
 
 
 
