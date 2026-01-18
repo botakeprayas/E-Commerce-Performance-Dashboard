@@ -34,13 +34,13 @@ CSV Files – Source data format
 
 * orders → order_items (order_id)
 
-order_items → order_item_refunds (order_item_id)
+* order_items → order_item_refunds (order_item_id)
 
-order_items → products (product_id)
+* order_items → products (product_id)
 
-website_sessions → orders (website_session_id)
+* website_sessions → orders (website_session_id)
 
-website_sessions → website_pageviews (website_session_id)
+* website_sessions → website_pageviews (website_session_id)
 
 ## SQL Analysis Performed
 
@@ -61,6 +61,15 @@ website_sessions → website_pageviews (website_session_id)
 8.Revenue per session
 
 Reusable SQL views were created for metrics like net revenue and product performance.
+
+## SQL Queries
+
+``` sql
+CREATE VIEW  KPIs AS
+SELECT ROUND(SUM(price_usd),2) as Total_Revenue ,COUNT(DISTINCT order_id) as `Total orders`,
+ROUND((SUM(price_usd)/COUNT(DISTINCT order_id)),2) `Average order value` FROM order_items; ```sql
+
+
 
 
 
