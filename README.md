@@ -214,26 +214,22 @@ ON website_sessions.website_session_id = orders.website_session_id GROUP BY utm_
 
 Executive Summary KPIs
 ![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
-
 * Key Insight
 Revenue is increasing, but rising refund percentages are negatively impacting net profit.
 
 Product & Refund Analysis
-
-
-
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
 * Key Insight
 Some products generate high revenue but also have high refund rates, indicating potential quality or expectation issues.
 
-
 Funnel & Website Performance
-
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
 * Key Insight
 Paid channels drive high traffic volume, but organic traffic shows better conversion efficiency.
 
 
 Customer & Traffic Quality Insights
-
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
 * Key Insight
 Fewer but higher-quality sessions generate more revenue, emphasizing the importance of traffic quality over volume.
 
