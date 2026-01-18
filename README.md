@@ -223,7 +223,7 @@ Product & Refund Analysis
 Some products generate high revenue but also have high refund rates, indicating potential quality or expectation issues.
 
 Funnel & Website Performance
-![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%201.png)
+![image alt](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/PAGE%203.png)
 * Key Insight
 Paid channels drive high traffic volume, but organic traffic shows better conversion efficiency.
 
