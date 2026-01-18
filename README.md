@@ -63,11 +63,11 @@ CSV Files – Source data format
 Reusable SQL views were created for metrics like net revenue and product performance.
 
 ## SQL Queries
-
+What is total revenue, total orders, and AOV?
 ``` sql
 CREATE VIEW  KPIs AS
 SELECT ROUND(SUM(price_usd),2) as Total_Revenue ,COUNT(DISTINCT order_id) as `Total orders`,
-ROUND((SUM(price_usd)/COUNT(DISTINCT order_id)),2) `Average order value` FROM order_items; ```sql
+ROUND((SUM(price_usd)/COUNT(DISTINCT order_id)),2) `Average order value` FROM order_items; 
 
 
 
