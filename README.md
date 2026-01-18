@@ -213,9 +213,7 @@ ON website_sessions.website_session_id = orders.website_session_id GROUP BY utm_
 ## Power BI Dashboard Structure
 
 Executive Summary KPIs
-
-
-
+![image alt](https://github.com/botakeprayas/HR-Attrition-Workforce-Insights-Dashboard/blob/ec80fc39bb753890b278f358b9fb5a6567bca4e7/dasboard.png)
 
 * Key Insight
 Revenue is increasing, but rising refund percentages are negatively impacting net profit.
