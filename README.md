@@ -6,18 +6,15 @@
 
 Business Wants to Know:
 1.Are we growing or leaking revenue?
+
 2.Which products drive profit vs refunds?
+
 3.Where users drop in the funnel?
+
 4.Which channels bring quality traffic?
+
 5.How refunds affect profitability?
 
 ## DATASET USED
-Tables:
-orders
-order_items
-order_item_refunds
-products
-website_sessions
-website_pageviews
 [dataset](https://github.com/botakeprayas/E-Commerce-Performance-Dashboard/blob/main/archive.zip)
 
