@@ -32,7 +32,7 @@ CSV Files – Source data format
 
 ## Data Model & Relationships
 
-orders → order_items (order_id)
+* orders → order_items (order_id)
 
 order_items → order_item_refunds (order_item_id)
 
@@ -44,23 +44,21 @@ website_sessions → website_pageviews (website_session_id)
 
 ## SQL Analysis Performed
 
-The project includes advanced SQL analysis, such as:
+1.Total Revenue, Orders, and Average Order Value (AOV)
 
-Total Revenue, Orders, and Average Order Value (AOV)
+2.Revenue loss due to refunds
 
-Revenue loss due to refunds
+3.Net revenue after refunds
 
-Net revenue after refunds
+4.Refund percentage by product
 
-Refund percentage by product
+5.Monthly revenue and refund trends
 
-Monthly revenue and refund trends
+6.Sessions → Orders conversion rate
 
-Sessions → Orders conversion rate
+7.Conversion rate by traffic source
 
-Conversion rate by traffic source
-
-Revenue per session
+8.Revenue per session
 
 Reusable SQL views were created for metrics like net revenue and product performance.
 
