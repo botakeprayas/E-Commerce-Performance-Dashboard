@@ -5,11 +5,11 @@
 “The company wants to analyze sales performance, customer purchasing behavior, refund impact, and website funnel efficiency to increase revenue, reduce refunds, and improve conversion rate.”
 
 Business Wants to Know:
-Are we growing or leaking revenue?
-Which products drive profit vs refunds?
-Where users drop in the funnel?
-Which channels bring quality traffic?
-How refunds affect profitability?
+1.Are we growing or leaking revenue?
+2.Which products drive profit vs refunds?
+3.Where users drop in the funnel?
+4.Which channels bring quality traffic?
+5.How refunds affect profitability?
 
 ## DATASET USED
 Tables:
